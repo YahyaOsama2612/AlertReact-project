@@ -1,0 +1,27 @@
+$borderColor: rgba(255, 25, 0, 0.322);
+.alert-danger {
+  border: 2px dotted $borderColor;
+  border-radius: 0.8rem;
+  padding: 1.3rem;
+  .alert-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .title {
+      display: flex;
+      align-items: center;
+      .text {
+        color: $borderColor;
+      }
+      svg{
+        margin-right: 0.8rem;
+      }
+    
+    }
+    .close{
+        cursor:pointer ;
+      }
+  }
+
+}
